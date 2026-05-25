@@ -22,6 +22,20 @@ body {
 	padding-right: 200px;
 }
 
+.image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid blue;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 80px;
+	min-width: 80px;
+	min-height: 80px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
 .body {
 	display: flex;
 	flex-direction: column;
@@ -59,6 +73,7 @@ body {
 	background-color: blue;
 	color: white;
 	padding: 10px;
+	border-radius: 15px;
 }
 
 .section1 .right {
@@ -81,6 +96,12 @@ body {
 	padding: 30px;
 	gap: 50px;
 	flex: 1;
+}
+
+.section2 .picture {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 .section2 .top {
@@ -107,6 +128,7 @@ body {
 .section3 .quote {
 	display: flex;
 	flex-direction: column;
+	font-size: 30px;
 	padding-left: 200px;
 	padding-right: 200px;
 }
@@ -137,6 +159,7 @@ body {
 	color: white;
 	border: 2px solid white;
 	padding: 10px;
+	border-radius: 15px;
 }
 
 .footer {
